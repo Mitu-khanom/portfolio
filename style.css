@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(205, 196, 205);
+    font-size: larger;
+    color: rgb(0, 0, 0)
+}
+.navbar{
+    background-color: rgb(222, 119, 134);
+}
+.container{
+    margin: 0 auto;
+    max-width: 96%;;
+}
+.about{
+    padding-top: 50px;
+}
+.Service{
+    text-align: center;
+    padding-top: 40px;
+}
+.Portfolio{
+    padding: 80px;
+    max-width: 96%;
+    text-align:center;
+}
+
+.icons a{
+    font-size: 30px;
+    gap: 10px;
+    
+}
+.get{
+    text-align: center;
+}
+.special{
+    padding-top: 50px;
+}
+.CONTACTS{
+    padding-top: 50px;
+}
+.sub-button{
+    padding-top: 50px;
+}
