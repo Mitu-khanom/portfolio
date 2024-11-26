@@ -125,7 +125,7 @@ body{
     background-color: #212529;
 }
 .progress{
-    padding-top: 15px;
+    margin-bottom: 5px;
     gap: 5px;
 }
 .Skill{
