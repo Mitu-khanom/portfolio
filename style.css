@@ -3,28 +3,99 @@
     padding: 0;
 }
 body{
-    background-color: rgb(205, 196, 205);
-    font-size: larger;
-    color: rgb(0, 0, 0)
+    background-color:#212529;
+    font-family: sans-serif;
+    color: ivory;
 }
-.navbar{
-    background-color: rgb(222, 119, 134);
-}
+
 .container{
     margin: 0 auto;
-    max-width: 96%;;
+    max-width: 1400px;
 }
+.navbar{
+    padding-bottom: 25px;
+}
+.title{
+    font-size: 80px;
+    font-family: "Cormorant Garamond" serif;
+
+}
+.title-2{
+    font-size: 85px;
+    font-family: "Cormorant Garamond" serif;
+
+}
+.detail{
+    font-family: "Cormorant Garamond" serif;
+    font-size: 22px;
+    font-weight: 500px;
+  
+}
+.section-1{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.btn{
+    background-color: #212529;
+    color: ivory;
+    border: #ffff;
+    border-radius: 8px;
+}
+
 .about{
     padding-top: 50px;
-}
-.Service{
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 245px;
+    width: 1260px;
     text-align: center;
+    background-color:rgb(76, 75, 61);
+
+
+
+};
+
+.Service{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.Service h3{
+    font-size: 20px;
+    padding-top: 30px;
+    color: lightslategrey;
+}
+.Service h1{
+    font-size: 40px;
+    font-weight: 600px;
+    padding-top: 25px;
+    font-family: "Cormorant Garamond" serif;
+}
+.title-3{
+    padding-top:20px;
+}
+.development{
+    padding-top: 60px;
+}
+
+.text-center{
     padding-top: 40px;
 }
+.skill{
+    padding-top: 15px;
+    
+}
+
+
 .Portfolio{
     padding: 80px;
     max-width: 96%;
     text-align:center;
+
+}
+
+.awesome{
+    font-size: 20px;
+    color: lightslategrey;
 }
 
 .icons a{
@@ -32,11 +103,34 @@ body{
     gap: 10px;
     
 }
+.project{
+    height: 190px;
+}
+.adorable{
+    margin-top: 20px;
+}
 .get{
     text-align: center;
+    padding-top: 40px;
+}
+.gets{
+    font-size: 20px;
+    color: lightslategrey;  
 }
 .special{
     padding-top: 50px;
+}
+.bar{
+    color: #ffff;
+    background-color: #212529;
+}
+.progress{
+    padding-top: 15px;
+    gap: 5px;
+}
+.Skill{
+    font-size: 20px;
+    color: lightslategrey;   
 }
 .CONTACTS{
     padding-top: 50px;
