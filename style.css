@@ -5,16 +5,19 @@
 body{
     background-color:#212529;
     font-family: sans-serif;
+    background-repeat: no-repeat;
     color: ivory;
+    background-size: cover;
 }
 
 .container{
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 96%;
 }
 .navbar{
     padding-bottom: 25px;
 }
+/* name area start */
 .title{
     font-size: 80px;
     font-family: "Cormorant Garamond" serif;
@@ -41,20 +44,18 @@ body{
     border: #ffff;
     border-radius: 8px;
 }
+/* name area end */
 
+/* about me start */
 .about{
-    padding-top: 50px;
-    margin-left: 40px;
+    padding-top: 10px;
+    margin-left: 10rem;
     border-radius: 10px;
-    height: 245px;
-    width: 1260px;
+    width: 1000px;
     text-align: center;
     background-color:rgb(76, 75, 61);
-
-
-
-};
-
+}
+/* skill area start */
 .Service{
     padding-top: 70px;
     padding-bottom: 30px;
@@ -65,8 +66,6 @@ body{
     color: lightslategrey;
 }
 .Service h1{
-    font-size: 40px;
-    font-weight: 600px;
     padding-top: 25px;
     font-family: "Cormorant Garamond" serif;
 }
@@ -84,13 +83,12 @@ body{
     padding-top: 15px;
     
 }
-
-
+/* skill area end */
+/* portfolio area start */
 .Portfolio{
     padding: 80px;
     max-width: 96%;
     text-align:center;
-
 }
 
 .awesome{
@@ -103,11 +101,10 @@ body{
     gap: 10px;
     
 }
+/* portfolio area end */
+
 .project{
     height: 190px;
-}
-.adorable{
-    margin-top: 20px;
 }
 .get{
     text-align: center;
@@ -135,6 +132,53 @@ body{
 .CONTACTS{
     padding-top: 50px;
 }
+.form-control{
+    margin: 0 300px 0 300px;
+    width: 600px;
+}
 .sub-button{
     padding-top: 50px;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .about{
+    width: 940px;
+  }
+  .form-control{
+    width: 500px;
+  }    
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        width: 640px;
+      }
+      .form-control{
+        width: 400px;
+        margin-left: 10rem;
+      }
+}
+
+@media screen and (max-width: 425px) {
+    .about{
+        width: 240px;
+      }
+      .form-control{
+        width: 200px;
+      }
+    
+
+
+    
+    
+}
+
+
+
+
